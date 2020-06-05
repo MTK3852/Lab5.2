@@ -9,6 +9,9 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
+             Manager manager = new Manager();
+                int count = manager.maxOrdersDays();
+                Assert.AreEqual(100, count);
         }
     }
 }
